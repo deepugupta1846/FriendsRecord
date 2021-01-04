@@ -1,0 +1,39 @@
+		
+		#nav{
+			background: #1d4052;
+			color: #fff;
+			padding: 5px;
+			font-family: sans-serif;
+		}
+		#menu{
+			text-align: right;
+		}
+		ul li{
+			display: inline-block;
+			margin: 20px;
+			list-style: none;
+
+		}
+		span{
+			margin: 0 20px;
+			font-size: 28px;
+			cursor: pointer;
+			display: none;
+		}
+		@media only screen and (max-width: 700px){
+			span{
+				display: block;
+			}
+			ul li{
+				display: block;
+			}
+			ul{
+				display: none;
+			}
+		}
+		
+		#nav img{
+			float: left;
+			margin-right: 20px;
+			
+		}

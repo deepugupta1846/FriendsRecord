@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript">
+		function togle(){
+			var x=document.getElementById("m");
+			if(x.style.display=="block")
+			{
+				x.style.display="none";
+			}
+			else
+			{
+				x.style.display="block";
+			}
+		}
+	</script>
+</head>
+<body link="white" vlink="white">
+<div id="nav">
+	<img src="deeplog.png" width="40px">
+	<div id="menu">
+		<span onclick="togle();">&#9776;</span>
+		<ul id="m">
+		<li><a href="index.php" id="n" >Home</a></li>
+		<li><a href="insertdata.php" id="n">Add</a> </li>
+		<li><a href="showdata.php" id="n">Show</a></li>
+		<li id="n">Delete</li>
+		<li id="n">Update</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
