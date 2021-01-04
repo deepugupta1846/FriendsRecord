@@ -9,7 +9,7 @@
 include 'navbar.html';
 ?>
 <div id="div1">
-	<p>Welcome</p>
+	<h1>Welcome</h1>
 </div>
 </body>
 </html>
