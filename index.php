@@ -9,7 +9,8 @@
 include 'navbar.html';
 ?>
 <div id="div1">
-	<h1>Welcome</h1>
+	<h1>Wel-come</h1>
+	<p>Deepu welcomes you</p>
 </div>
 </body>
 </html>
